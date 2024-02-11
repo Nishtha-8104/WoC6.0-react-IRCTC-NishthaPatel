@@ -34,7 +34,7 @@ function SignUp() {
           console.log(response.token);
           setRegistered(true);
         } else {
-          setFalseuser("Username is taken!😕");
+          alert("Username is taken!😕");
         }
       } catch (error) {
         console.log("Error posting data", error);
